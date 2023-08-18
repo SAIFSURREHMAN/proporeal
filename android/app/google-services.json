@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717029246915",
+    "project_id": "propereal-71cf5",
+    "storage_bucket": "propereal-71cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717029246915:android:ab0faa123c004bac2a5f76",
+        "android_client_info": {
+          "package_name": "com.example.propereal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717029246915-5cua7ebv6h5f1mtbet9nsccbtuovnk5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUaUDjCW8fikXZ8FS9pt7a_cyBUrJbMjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717029246915-5cua7ebv6h5f1mtbet9nsccbtuovnk5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
