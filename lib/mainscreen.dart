@@ -196,6 +196,7 @@ class MainScreen extends StatelessWidget {
                                                               Icons
                                                                   .bed_outlined,
                                                               size: 30,
+                                                              color: Colors.black,
                                                             ),
                                                             backgroundColor:
                                                                 Colors.white,
@@ -212,6 +213,7 @@ class MainScreen extends StatelessWidget {
                                                               Icons
                                                                   .shower_outlined,
                                                               size: 30,
+                                                              color: Colors.black,
                                                             ),
                                                             backgroundColor:
                                                                 Colors.white,
@@ -228,6 +230,7 @@ class MainScreen extends StatelessWidget {
                                                               Icons
                                                                   .house_outlined,
                                                               size: 30,
+                                                              color: Colors.black,
                                                             ),
                                                             backgroundColor:
                                                                 Colors.white,

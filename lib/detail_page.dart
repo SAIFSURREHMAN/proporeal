@@ -2,6 +2,7 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:propereal/text_constants.dart';
 
 class AdDetail extends StatefulWidget {
@@ -98,6 +99,7 @@ class _AdDetailState extends State<AdDetail> {
                               child: Icon(
                                 Icons.bed_outlined,
                                 size: 37,
+                                color: Colors.black,
                               ),
                               backgroundColor: Colors.white,
                             ),
@@ -113,6 +115,7 @@ class _AdDetailState extends State<AdDetail> {
                               child: Icon(
                                 Icons.shower_outlined,
                                 size: 37,
+                                color: Colors.black,
                               ),
                               backgroundColor: Colors.white,
                             ),
@@ -128,6 +131,7 @@ class _AdDetailState extends State<AdDetail> {
                               child: Icon(
                                 Icons.house_outlined,
                                 size: 30,
+                                color: Colors.black,
                               ),
                               backgroundColor: Colors.white,
                             ),
@@ -142,17 +146,18 @@ class _AdDetailState extends State<AdDetail> {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(20.0),
-                    child: PText(
+                    child: PText(  
                       "Description",
                       weight: FontWeight.bold,
-                      fontSize: 22,
+                          fontSize: 22,
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 5, 5, 10),
-                    child: PText(
+                    child: Text(
                       '${data['description']}',
-                      fontSize: 20,
+                      style: GoogleFonts.poppins(
+                          fontSize: 20,),
                     ),
                   ),
                   Padding(

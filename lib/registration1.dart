@@ -57,6 +57,7 @@ class _RegistrationState extends State<Registration> {
         ),
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          
           children: [
             const PText(
               "We're thrilled to have you join our community.",

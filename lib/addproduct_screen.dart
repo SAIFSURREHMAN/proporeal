@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:propereal/SearchScreen.dart';
 import 'package:propereal/mainscreen.dart';
 
 class AddProductScreen extends StatefulWidget {
@@ -33,12 +34,16 @@ class _AddProductScreenState extends State<AddProductScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).primaryColor,
+      backgroundColor: Color.fromARGB(255, 15, 31, 76),
       appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 15, 31, 76),
         centerTitle: true,
+        leading: IconButton(onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => SearchScreen()));
+        }, icon: Icon(Icons.arrow_back)),
         title: Text(
-          'Add Your Place',
-          style: TextStyle(color: Colors.black, fontSize: 30),
+          'Sell your Property',
+          style: TextStyle(color: Colors.white, fontSize: 30),
         ),
       ),
       body: Card(
